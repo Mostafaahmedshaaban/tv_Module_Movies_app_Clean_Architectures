@@ -13,7 +13,7 @@ class GetRecommendationsMoviesUsecase extends BaseUseCase<List<Recommendations>,
   }
 }
 class RecommendationsParameters extends Equatable {
-  final String id;
+  final int id;
   RecommendationsParameters(this.id);
   @override
   List<Object?> get props => [id];

@@ -13,14 +13,12 @@ class GetDetailsMoviesUsecase extends BaseUseCase<Details,DetailsParameters>  {
   Future<Either<Failure, Details>> call(DetailsParameters parameters) async{
     return await baseRepositryMovies.getdetailsmovies(parameters);
   }
-
 }
-
 class DetailsParameters extends Equatable {
-  final int DetailId;
+  final int id;
 
-  DetailsParameters(this.DetailId);
+  DetailsParameters(this.id);
 
   @override
-  List<Object> get props => [DetailId];
+  List<Object> get props => [id];
 }

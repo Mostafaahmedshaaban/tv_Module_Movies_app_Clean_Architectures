@@ -7,4 +7,3 @@ class ApiConstant {
   static String details( int movieId)=>'$baseurl/movie/$movieId$apiKey';
   static String recommendations(int movieId)=>'$baseurl/movie/$movieId/recommendations$apiKey';
 }
-//https://api.themoviedb.org/3/movie/572802?api_key=716291692a14e3d4457c078067e71786

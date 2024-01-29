@@ -1,5 +1,4 @@
 import 'package:movie_tv_app/Movies/domain/entities/movies.dart';
-
 class MoviesModel extends Movies{
   MoviesModel({
     required super.backdropPath,
